@@ -110,6 +110,7 @@ class MessageList extends Component {
           }}
           open={showErrorSnackBar}
           autoHideDuration={2000}
+          onClose={this.handleClose}
         >
           <Alert onClose={this.handleClose} severity="error">
             {snackBarMessage}
